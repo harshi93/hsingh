@@ -1,0 +1,18 @@
+It took more than two days to figure what i exactly had to do in order to fix
+my broken git; you might think how git can break but remember it's no human
+and is merely a system that operates on human instructions; git's usefulness
+is defined by content it holds and the person who operates it.
+
+I made a mistake and to make sure you don't do the same but if you are anything
+like you are highly likely to repeat the mistake and so just to make sure next
+time fixing it takes as much time as it actually requires.
+
+Follow simple steps given below:
+
+1) git rm --cached /pathToYourFolderThatIsNotbeingDeleted
+2) git status; if the output is green and says deleted followed by folderName
+3) after above result is in your favor that is result is green and says deleted
+type 
+	git add folderName
+	git commit -m "your message"
+	git push -u origin; to push the file to origin 
